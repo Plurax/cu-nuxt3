@@ -2,7 +2,8 @@ import type { Ref } from 'vue'
 
 export default function () {
   const language = useState<string>('language', () => '/en');
-
+  const router = useRouter();
+  
   const toggleLanguage = () => {
     if (language.value == '/en')
     {
@@ -13,6 +14,15 @@ export default function () {
       language.value = '/en'
     }
   }
-  
-  return { language, toggleLanguage }
+
+  const currentLanguage = () => {
+    if (language.value == '/en') {
+      return "EN"
+    }
+    else {
+      return "DE"
+    }
+  }
+
+  return { language, currentLanguage, toggleLanguage }
 }

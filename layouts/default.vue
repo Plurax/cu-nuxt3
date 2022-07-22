@@ -11,11 +11,13 @@
         <div class="hidden sm:block sm:ml-6">
           <div class="flex space-x-4">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <NuxtLink v-slot="{ isActive }" activeClass="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" :to="{ path: language+'/about' }" class="active:bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Über mich</NuxtLink>
-            <NuxtLink v-slot="{ isActive }" activeClass="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" :to="{ path: language+'/legal' }" class="active:bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Impressum</NuxtLink>
+            <NuxtLink v-slot="{ isActive }" activeClass="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" :to="{ path: language+'/about' }" class="active:bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">{{ currentLanguage() == "DE" ? "Über mich" : "About"}}</NuxtLink>
+            <NuxtLink v-slot="{ isActive }" activeClass="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" :to="{ path: language+'/legal' }" class="active:bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">{{ currentLanguage() == "DE" ? "Impressum" : "Legal notice"}}</NuxtLink>
           </div>
         </div>
-        <button @click="toggleLanguage">Toggle</button>
+      </div>
+      <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">        
+        <button class="text-white" @click="toggleLanguage">{{ currentLanguage() == "DE" ? "EN" : "DE" }}</button>
       </div>
     </div>
   </div>
@@ -26,5 +28,5 @@
 </template>
 
 <script setup>
-const { language, toggleLanguage } = useLanguage()
+const { language, currentLanguage, toggleLanguage } = useLanguage()
 </script>
