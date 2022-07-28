@@ -1,8 +1,7 @@
 <template>
-  <main class="bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8">
+  <div>
     <div class="mx-auto max-w-lg lg:max-w-7-xl">
-      <h2 class="text-3xl font-semibold tracking-tight">Recent posts</h2>
-      
+      <h1 class="py-5 text-3xl font-bold tracking-tight">Recent posts</h1>
     </div>
     <div class="mt-12 grid gap-16 lg:grid-cols-3 lg:gab-x-5">
       <ContentList path="/en/blog" v-slot="{ list }">
@@ -24,5 +23,5 @@
         </div>
       </ContentList>
     </div>
-  </main>
+  </div>
 </template>

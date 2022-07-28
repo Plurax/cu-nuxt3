@@ -1,9 +1,9 @@
 <template>
-  <main class="bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8">
+  <div>
     <div class="mx-auto max-w-lg lg:max-w-7-xl">
-      <h2 class="text-3xl font-semibold tracking-tight">Recent posts</h2>      
+      <h1 class="py-5 text-3xl font-bold tracking-tight">Recent posts</h1>
     </div>
-    <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+    <div class="p-10 grid grid-cols-3 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-2">
       <ContentList path="/de/blog" v-slot="{ list }">
         <div v-for="article in list" :key="article._path">
           <NuxtLink :href="article._path">
@@ -23,5 +23,5 @@
         </div>
       </ContentList>
     </div>
-  </main>
+  </div>
 </template>

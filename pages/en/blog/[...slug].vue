@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <div>
     <ContentDoc path="/en/blog"/>
-  </main>
+  </div>
 </template>
