@@ -1,6 +1,5 @@
 <template>
-<div>
-  <div class="p-10 grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2">
+  <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2">
     <div class="col-span-4 rounded overflow-hidden shadow-md">
       <div class="thatsme"> 
         <img src="~/assets/img/sw.png" width="200" alt="me"/>
@@ -15,7 +14,7 @@
   <div class="py-5 mx-auto max-w-lg lg:max-w-7-xl">
     <h2 class="text-3xl font-semibold tracking-tight">Tätigkeiten</h2>      
   </div>
-  <div class="p-10 grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2">
+  <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2">
     <div class="col-span-2 rounded overflow-hidden shadow-lg">
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">Techhnology Consultant</div>
@@ -76,7 +75,7 @@
   <div class="py-5 mx-auto max-w-lg lg:max-w-7-xl">
     <h2 class="text-3xl font-semibold tracking-tight">Aus- und Weiterbildung</h2>      
   </div>
-  <div class="p-10 grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2">
+  <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2">
     <div class="col-span-2 rounded overflow-hidden shadow-lg">
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">Dipl. Ing. Nachrichtentechnik</div>
@@ -115,7 +114,6 @@
       <SkillList/>
     </div>
   </div>
-</div>
 </template>
 
 <style>

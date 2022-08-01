@@ -1,6 +1,6 @@
 <template>
   <div class="p-5 mx-auto overflow-hidden shadow-md">
-      <h2 class="text-3xl font-bold mb-8">Impressum</h2>
+      <h1 class="text-3xl font-bold mb-8">Impressum</h1>
 E-Mail: <a href="mailto:christoph@familie-uhlich.de">christoph@familie-uhlich.de</a>
 <h2 class="text-3xl font-bold mb-8">Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
 <p class="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">Christoph Uhlich<br />
