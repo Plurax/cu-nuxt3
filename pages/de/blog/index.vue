@@ -3,12 +3,11 @@
     <div class="mx-auto max-w-lg lg:max-w-7-xl">
       <h1 class="py-5 text-3xl font-bold tracking-tight">Recent posts</h1>
     </div>
-    <div class="p-10 grid grid-cols-3 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-2">
+    <div class="mt-12 grid gap-16 lg:grid-cols-3 lg:gab-x-5">
       <ContentList path="/de/blog" v-slot="{ list }">
         <div v-for="article in list" :key="article._path">
           <NuxtLink :href="article._path">
           <div class="max-w-sm rounded overflow-hidden shadow-lg">
-            <PexelsImage :photoid="article.photoid"/>
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">{{ article.title }}</div>
               <p class="text-gray-700 text-base">
