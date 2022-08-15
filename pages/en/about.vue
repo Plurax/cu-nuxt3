@@ -20,7 +20,7 @@
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">Techhnology Consultant</div>
         <p class="text-gray-700 text-base">
-          As Technology consultant...
+          As Technology consultant with experience in both development and product owner roles, I can support in product development and requirements engineering, but also in setups of POCs. Besides that I can also help with architectural decisions.
         </p>
       </div>
       <div class="px-6 pt-4 pb-2">

@@ -20,7 +20,7 @@
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">Techhnology Consultant</div>
       <p class="text-gray-700 text-base">
-        Als Technology consultant mache ich...
+        Als Technology consultant unterstütze ich Kunden in unterschiedlichen Rollen in der Produktentwicklung. Meine Erfahrung als Entwickler und Product Owner kann ich insbesondere zu Beginn von Softwareprojekten einbringen. Außerdem kann ich beim Aufbau von POCs sowie Architekturentscheidungen helfen.
       </p>
     </div>
     <div class="px-6 pt-4 pb-2">
