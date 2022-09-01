@@ -31,5 +31,14 @@ export default defineNuxtConfig({
   css: [
     "assets/css/tailwind.css"
   ],
-  modules: ['@nuxt/content']
+  modules: ['@nuxt/content'],
+  vite: {
+    build: {
+      rollupOptions: {
+        output: {
+          chunkFileNames: '_nuxt/[hash].mjs'
+        }
+      }
+    }
+  }
 })
