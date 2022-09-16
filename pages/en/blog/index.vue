@@ -7,7 +7,9 @@
       <ContentList path="/en/blog" v-slot="{ list }">
         <div v-for="article in list" :key="article._path">
           <NuxtLink :href="article._path">
-          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+            <PexelsImage :photoid="article.photoid" :staticHeader="article.staticHeader" />
+            
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">{{ article.title }}</div>
               <p class="text-gray-700 text-base">
@@ -24,3 +26,4 @@
     </div>
   </div>
 </template>
+

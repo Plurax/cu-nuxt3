@@ -1,10 +1,3 @@
-<script setup>
-  const getURL = (imgname) => {
-  var imgurl = new URL(`/img/staticHeaders/${imgname}`, import.meta.url).href;
-  return imgurl;
-  }
-</script>
-
 <template>
   <div>
     <div class="mx-auto max-w-lg lg:max-w-7-xl">
