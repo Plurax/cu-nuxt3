@@ -1,4 +1,3 @@
-
 <script setup>
   const getURL = (imgname) => {
   var imgurl = new URL(`/img/staticHeaders/${imgname}`, import.meta.url).href;

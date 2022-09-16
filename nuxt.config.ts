@@ -4,9 +4,6 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   ssr: false,
   target: 'static',
-  nitro: {
-    preset: 'service-worker'
-  },
   publicRuntimeConfig: {
     PEXELS_KEY: process.env.PEXELS_KEY
   },
@@ -15,30 +12,15 @@ export default defineNuxtConfig({
       theme: 'material-palenight',
     }
   },
-  build: {
-    postcss: {
-      postcssOptions: {
-        plugins: {
-          'postcss-import': true,
-          'tailwindcss/nesting': {},
-          'postcss-nested': {},
-          tailwindcss: {},
-          autoprefixer: {},
-        },
-      },
-    },
-  },
-  css: [
-    "assets/css/tailwind.css"
+  modules: [
+    '@nuxt/content',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
+    'nuxt-icon'
   ],
-  modules: ['@nuxt/content'],
-  vite: {
-    build: {
-      rollupOptions: {
-        output: {
-          chunkFileNames: '_nuxt/[hash].mjs'
-        }
-      }
+  runtimeConfig: {
+    public: {
+      appUrl: process.env.APP_URL || 'http://localhost:3000',
     }
   }
 })

@@ -5,7 +5,7 @@
         <div class="relative flex flex-shrink-0 items-center justify-between h-16">
           <div class="flex-1 flex items-center justify-center">
             <div class="flex-shrink-0 items-center">
-              <NuxtLink v-slot="{ isActive }" activeClass="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" :to="{ path: language+'/blog' }" class="active:bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">
+              <NuxtLink v-slot="{ isActive }" activeClass="bg-gray-900" :to="{ path: language+'/blog' }" class="active:bg-gray-900" aria-current="page">
                 <img class="lg:block h-5 w-auto" src="~/assets/img/CULogo.svg" alt="Workflow">
               </NuxtLink>
             </div>
