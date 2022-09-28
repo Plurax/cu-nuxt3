@@ -9,7 +9,7 @@
                 <img class="lg:block h-5 w-auto" src="~/assets/img/CULogo.svg" alt="Workflow">
               </NuxtLink>
             </div>
-            <div class="hidden sm:block sm:ml-6">
+            <div class="sm:block sm:ml-6">
               <div class="flex space-x-4">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <NuxtLink v-slot="{ isActive }" activeClass="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" :to="{ path: language+'/about' }" class="active:bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">{{ currentLanguage() == "DE" ? "Über mich" : "About"}}</NuxtLink>

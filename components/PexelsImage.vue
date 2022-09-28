@@ -28,7 +28,7 @@ return { src: { small: "https://images.pexels.com/photos/4905078/pexels-photo-49
 
 <template>
 <div class="cardimg">
-  <img v-if="props.staticHeader" class="w-full" :src="cardImageURL(props.staticHeader)" />
+  <img v-if="props.staticHeader" :src="cardImageURL(props.staticHeader)" />
   <span v-if="(!props.staticHeader && (props.photoid.length >0))" to="https://www.pexels.com" class="text-xs bg-slate-900 text-white rounded-sm copyright">{{ photo.photographer }} (Pexels)</span>
 </div>
 </template>
