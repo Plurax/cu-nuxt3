@@ -46,6 +46,11 @@ const languageMap: Record<
     background: '#f7df1e',
     color: 'black',
   },
+  bash: {
+    text: 'sh',
+    background: '#42b883',
+    color: 'black',
+  },
 };
 const languageText = computed(() =>
   props.language ? languageMap[props.language]?.text : null
