@@ -30,7 +30,7 @@
     </div>
     <div class="col-span-2 rounded overflow-hidden shadow-lg">
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Technical produktmanager Cloud of Things</div>
+        <div class="font-bold text-xl mb-2">Technical productmanager Cloud of Things</div>
         <p class="text-gray-700 text-base">
           As technical product manager I was the product owner of the operations and QA team. Additionally I had to align customer requirements with the platform provider. My experience with embedded development helped me in customer discussions to provide the ideal solution for the usecases and create POCs.
         </p>
@@ -45,7 +45,7 @@
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">Systems Engineer</div>
         <p class="text-gray-700 text-base">
-          I did several different things in context of software development in the billing domain. Besides development of a modula testsystem with selektive test execution, automatic reporting including diff highlighting I was also contributing to a huge C++ project.
+          I did several different things in context of software development in the billing domain. Besides development of a modular testsystem with selective test execution, automatic reporting including diff highlighting I was also contributing to a huge C++ project.
         </p>
       </div>
       <div class="px-6 pt-4 pb-2">
