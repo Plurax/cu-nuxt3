@@ -45,7 +45,7 @@
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">Systems Engineer</div>
         <p class="text-gray-700 text-base">
-          I did several different things in context of software development in the billing domain. Besides development of a modula testsystem with selektive test execution, automatic reporting including diff highlighting I was also contributing to a huge C++ project.
+          I did several different things in context of software development in the billing domain. Besides development of a modular testsystem with selective test execution, automatic reporting including diff highlighting I was also contributing to a huge C++ project.
         </p>
       </div>
       <div class="px-6 pt-4 pb-2">
