@@ -2,9 +2,6 @@
 export default {
   ssr: false,
   target: 'static',
-  publicRuntimeConfig: {
-    PEXELS_KEY: process.env.PEXELS_KEY
-  },
   content: {
     documentDriven: true,
     highlight: {
@@ -12,6 +9,7 @@ export default {
       theme: 'github-dark',
     }
   },
+  buildModules: ['@nuxtjs/tailwindcss'],
   modules: [
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
