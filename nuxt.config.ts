@@ -9,6 +9,9 @@ export default {
       theme: 'github-dark',
     }
   },
+  nitro: {
+    serveStatic: true,
+  },
   buildModules: ['@nuxtjs/tailwindcss'],
   modules: [
     '@nuxt/content',
