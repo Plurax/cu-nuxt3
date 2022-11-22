@@ -10,7 +10,7 @@ export default {
     }
   },
   nitro: {
-    serveStatic: true,
+		preset: 'netlify-edge',
   },
   buildModules: ['@nuxtjs/tailwindcss'],
   modules: [
