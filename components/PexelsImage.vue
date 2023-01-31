@@ -20,16 +20,11 @@ const cardImageURL = () => {
     }
 }
     
-const { data: photo } = await useFetch(() => `https://api.pexels.com/v1/photos/${props.photoid}`,
-{ headers: { 'Authorization': config.PEXELS_KEY },
-default: () =>  {
-return { src: { small: "https://images.pexels.com/photos/4905078/pexels-photo-4905078.jpeg?auto=compress&cs=tinysrgb&h=130" }, photographer: "Horst"}}});
 </script>
 
 <template>
 <div class="cardimg">
-  <img v-if="props.staticHeader" :src="cardImageURL(props.staticHeader)" />
-  <span v-if="(!props.staticHeader && (props.photoid.length >0))" to="https://www.pexels.com" class="text-xs bg-slate-900 text-white rounded-sm copyright">{{ photo.photographer }} (Pexels)</span>
+  <img v-if="props.staticHeader" :src="cardImageURL(props.staticHeader)" />  
 </div>
 </template>
 

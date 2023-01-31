@@ -14,10 +14,8 @@ const {data: articles, pending} = await useAsyncData(
 </script>
 
 <template>
+<NuxtLayout>
   <div>
-    <div class="mx-auto max-w-lg lg:max-w-7-xl">
-      <h1 class="py-5 text-3xl font-bold tracking-tight">Recent posts</h1>
-    </div>
     <div class="mt-12 grid gap-16 lg:grid-cols-3 lg:gab-x-5">
         <div v-for="article in articles" :key="article._path">
           <NuxtLink :href="article._path">
@@ -40,5 +38,6 @@ const {data: articles, pending} = await useAsyncData(
         </div>
     </div>
   </div>
+</NuxtLayout>
 </template>
 

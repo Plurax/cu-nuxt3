@@ -1,4 +1,5 @@
 <template>
+<NuxtLayout>
 <div class="p-5 mx-auto overflow-hidden shadow-md">
   <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2">
     <div class="col-span-4 rounded overflow-hidden shadow-md">
@@ -30,7 +31,7 @@
     </div>
     <div class="col-span-2 rounded overflow-hidden shadow-lg">
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">Technical produktmanager Cloud of Things</div>
+        <div class="font-bold text-xl mb-2">Technical productmanager Cloud of Things</div>
         <p class="text-gray-700 text-base">
           As technical product manager I was the product owner of the operations and QA team. Additionally I had to align customer requirements with the platform provider. My experience with embedded development helped me in customer discussions to provide the ideal solution for the usecases and create POCs.
         </p>
@@ -116,6 +117,7 @@
     </div>
   </div>
 </div>
+</NuxtLayout>
 </template>
 
 <style>

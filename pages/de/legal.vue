@@ -1,4 +1,5 @@
 <template>
+<NuxtLayout>
 <div class="p-5 mx-auto overflow-hidden shadow-md">
   <h1 class="text-3xl font-bold mb-8">Impressum</h1>
   E-Mail: <a href="mailto:christoph@familie-uhlich.de">christoph@familie-uhlich.de</a>
@@ -14,4 +15,5 @@
   <h1 class="text-3xl font-bold mb-8">Disclaimer</h1>
   Dieses Blog ist die persönliche Webseite von Christoph Uhlich. Die hier geäußerten Meinungen, sind meine eigenen und sind somit nicht (können aber) die Meinung oder Auffassung meines Arbeitgebers.
 </div>
+</NuxtLayout>
 </template>
