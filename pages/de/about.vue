@@ -8,7 +8,10 @@
   </div>
   <div class="px-6 py-4">
     <p class="text-gray-700 text-base">
-      Hi, ich bin Christoph - Vater, Ehemann und Technologieconsultant bei der <a href="https://www.tarent.de">tarent solutions GmbH</a> in Bonn. Ich durfte bereits an unterschiedlichen Projekten arbeiten und konnte in unterschiedlichen Technologien Erfahrung sammeln. Ich halte mich selbst für lösungsorientiert, hilfsbereit und teamfähig und nutze gern agile Entwicklungsmethoden.
+      Hi, ich bin Christoph - Vater, Ehemann und Technologieconsultant bei der <MyLink title="tarent" to="https://www.tarent.de">tarent solutions GmbH</MyLink> in Bonn. Ich durfte bereits an unterschiedlichen Projekten arbeiten und konnte in unterschiedlichen Technologien Erfahrung sammeln. Ich halte mich selbst für lösungsorientiert, hilfsbereit und teamfähig und nutze gern agile Entwicklungsmethoden.
+      <br/><br/>
+      <MyLink class="NuxtLink" target="_blank" to="https://www.linkedin.com/in/christoph-uhlich/"><font-awesome-icon size="2xl" icon="fa-brands fa-linkedin" /></MyLink>&nbsp;
+      <MyLink class="NuxtLink" target="_blank" to="https://www.github.com/plurax/"><font-awesome-icon size="2xl" icon="fa-brands fa-github-square" /></MyLink>
     </p>
   </div>
 </div>
@@ -125,4 +128,5 @@
     float:left;
     margin-right:15px;
 }
+
 </style>

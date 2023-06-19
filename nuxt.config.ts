@@ -1,6 +1,9 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default {
   ssr: false,
+  "css": [
+    "@fortawesome/fontawesome-svg-core/styles.css"
+  ],
   target: 'static',
   content: {
     documentDriven: true,

@@ -8,7 +8,10 @@
       </div>
       <div class="px-6 py-4">
         <p class="text-gray-700 text-base">
-  Hi, I am Christoph. I am father, husband and tech consultant @ <a href="https://www.tarent.de">tarent solutions GmbH</a> in Bonn. I had the chance to work on different projects and different technologies. I think I am solution-oriented, helpful and a team player and I like agile methodologies.
+  Hi, I am Christoph. I am father, husband and tech consultant @ <MyLink to="https://www.tarent.de">tarent solutions GmbH</MyLink> in Bonn. I had the chance to work on different projects and different technologies. I think I am solution-oriented, helpful and a team player and I like agile methodologies.
+      <br/><br/>
+      <MyLink class="NuxtLink" target="_blank" to="https://www.linkedin.com/in/christoph-uhlich/"><font-awesome-icon size="2xl" icon="fa-brands fa-linkedin" /></MyLink>&nbsp;
+      <MyLink class="NuxtLink" target="_blank" to="https://www.github.com/plurax/"><font-awesome-icon size="2xl" icon="fa-brands fa-github-square" /></MyLink>
         </p>
       </div>
     </div>
