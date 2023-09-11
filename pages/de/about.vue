@@ -111,6 +111,9 @@
           <li>
             IREB Certified Professional for Requirements engineering (Foundation level)
           </li>
+          <li>
+            <MyLink class="NuxtLink" target="_blank" to="https://www.certible.com/badge/99e29db7-877e-4faf-92ac-68a073f4346e/">iSAQB® Certified Professional for Software Architecture - Foundation Level</MyLink>
+          </li>
         </ul>
       </p>
     </div>
