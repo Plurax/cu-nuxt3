@@ -1,8 +1,8 @@
 
 <script setup lang="ts">
 
-  import { reactive, toRefs, ref } from "vue";
-const config = useRuntimeConfig();
+import { reactive, toRefs, ref } from "vue";
+const appUrl = useRuntimeConfig();
 
 export interface Props {
 photoid?: Number,
@@ -16,7 +16,7 @@ const props = withDefaults(defineProps<Props>(), {
 const cardImageURL = () => {
     if (props.staticHeader)
     {
-    return new URL(`/img/staticHeaders/${props.staticHeader}`, config.appUrl).href;
+    return new URL(`/img/staticHeaders/${props.staticHeader}`, appUrl.public.appUrl).href;
     }
 }
     

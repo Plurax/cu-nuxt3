@@ -4,20 +4,16 @@
     <span class="text-white mx-2 text-left">
       {{ filename ? filename : " " }}
     </span>
-    <div class="text-right mx-10">
-      <span class="text-white copied-text text-right" v-if="copied">Copied</span>
-      <button class="text-right" @click="copy(code)"><Icon class="w-4 m-2 text-white" aria-hidden="true" name="heroicons-outline:clipboard-copy"/></button>
-    </div>
-      <span
-        v-if="languageText"
-        :style="{ background: languageBackground, color: languageColor }"
-        class="language-text"
-        >
-        {{ languageText }}
-      </span>
-    </div>
-    <slot />
+    <span
+      v-if="languageText"
+      :style="{ background: languageBackground, color: languageColor }"
+      class="language-text"
+      >
+      <button class="text-right" @click="copy(code)"><Icon class="w-4 m-2 text-white" aria-hidden="true" :name="copied ? 'heroicons-outline:clipboard' : 'heroicons-outline:clipboard-copy'"/></button> {{ languageText }}
+    </span>
   </div>
+  <slot />
+</div>
 </template>
 
 <script setup lang="ts">
@@ -50,6 +46,11 @@ const languageMap: Record<
     text: 'sh',
     background: '#42b883',
     color: 'black',
+  },
+  lisp: {
+    text: 'lisp',
+    background: '#42b883',
+    color: 'white',
   },
 };
 const languageText = computed(() =>

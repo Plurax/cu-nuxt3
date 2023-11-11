@@ -10,6 +10,7 @@ export default {
     highlight: {
       // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
       theme: 'github-dark',
+      preload: ['diff', 'json', 'js', 'ts', 'css', 'shell', 'html', 'md', 'yaml', 'lisp'],
     }
   },
   nitro: {
@@ -17,6 +18,7 @@ export default {
   },
   buildModules: ['@nuxtjs/tailwindcss'],
   modules: [
+    'nuxt-content-assets',
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
