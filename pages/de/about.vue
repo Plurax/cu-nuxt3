@@ -1,7 +1,4 @@
 <template>
-<NuxtLayout>
-  <div class="p-5 mx-auto overflow-hidden shadow-md">
-    <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2">
 <div class="col-span-4 rounded overflow-hidden shadow-md">
   <div class="thatsme"> 
     <img src="~/assets/img/sw.png" width="200" alt="me"/>
@@ -14,7 +11,6 @@
       <MyLink class="NuxtLink" target="_blank" to="https://www.github.com/plurax/"><font-awesome-icon size="2xl" icon="fa-brands fa-github-square" /></MyLink>
     </p>
   </div>
-</div>
 </div>
 <div class="py-5 mx-auto max-w-lg lg:max-w-7-xl">
   <h2 class="text-3xl font-semibold tracking-tight">Tätigkeiten</h2>      
@@ -119,8 +115,6 @@
     <SkillList/>
   </div>
 </div>
-</div>
-</NuxtLayout>
 </template>
 
 <style>

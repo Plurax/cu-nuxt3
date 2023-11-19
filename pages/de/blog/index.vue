@@ -14,7 +14,6 @@ const {data: articles, pending} = await useAsyncData(
 </script>
 
 <template>
-<NuxtLayout>
   <div>
     <div class="mt-12 grid gap-16 lg:grid-cols-3 lg:gab-x-5">
         <div v-for="article in articles" :key="article._path">
@@ -38,6 +37,5 @@ const {data: articles, pending} = await useAsyncData(
         </div>
     </div>
   </div>
-</NuxtLayout>
 </template>
 
