@@ -1,4 +1,7 @@
 <template>
+<NuxtLayout>
+  <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2">
+    <div class="p-10 col-span-4 rounded overflow-hidden shadow-md">
   <h1 class="text-3xl font-bold mb-8">Contact in regard to german law &sect; 5 TMG</h1>
   <p class="text-base font-light leading-relaxed mt-0 mb-4 text-gray-800">
     Christoph Uhlich<br />
@@ -11,4 +14,7 @@
   
   <h1 class="text-3xl font-bold mb-8">Disclaimer</h1>
   This blog is the personal website of Christoph Uhlich. The opinions stated on this page are my own - thus not (but may be) the opinion of my employer.
+    </div>
+  </div>
+</NuxtLayout>
 </template>

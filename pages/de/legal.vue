@@ -1,4 +1,7 @@
 <template>
+<NuxtLayout>
+  <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2">
+    <div class="p-10 col-span-4 rounded overflow-hidden shadow-md">
   <h1 class="text-3xl font-bold mb-8">Impressum</h1>
   E-Mail: <a href="mailto:christoph@familie-uhlich.de">christoph@familie-uhlich.de</a>
   <h2 class="text-3xl font-bold mb-8">Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
@@ -12,4 +15,7 @@
   
   <h1 class="text-3xl font-bold mb-8">Disclaimer</h1>
   Dieses Blog ist die persönliche Webseite von Christoph Uhlich. Die hier geäußerten Meinungen, sind meine eigenen und sind somit nicht (können aber) die Meinung oder Auffassung meines Arbeitgebers.
+    </div>
+  </div>
+</NuxtLayout>
 </template>
