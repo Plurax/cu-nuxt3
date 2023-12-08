@@ -66,8 +66,7 @@ const languageColor = computed(() =>
 
 <style scoped>
 .container {
-background: #fff;
-border: 1px solid black;
+background: #1e1e1e;
   position: relative;
   margin-top: 1rem;
   margin-bottom: 1rem;
