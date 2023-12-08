@@ -1,3 +1,7 @@
+---
+title: Impressum
+---
+
 # Impressum
 
 mail: christoph@familie-uhlich.de
