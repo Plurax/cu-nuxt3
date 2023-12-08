@@ -1,17 +1,22 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default {
-  ssr: false,
+  hooks: {
+    close: (nuxt) => {
+      if (!nuxt.options._prepare)
+        process.exit()
+    }
+  },
+  target: "static",
   "css": [
     "@fortawesome/fontawesome-svg-core/styles.css"
   ],
-  target: 'static',
   content: {
-    documentDriven: true,
     highlight: {
       // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
       theme: 'github-dark',
-      preload: ['diff', 'json', 'js', 'ts', 'css', 'shell', 'html', 'md', 'yaml', 'lisp'],
-    }
+      preload: ['diff', 'json', 'js', 'ts', 'css', 'shell', 'html', 'md', 'yaml', 'lisp']
+    },
+    documentDriven: true,
   },
   nitro: {
     serveStatic: true,
