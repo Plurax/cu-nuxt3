@@ -11,16 +11,19 @@ defineProps({
 </script>
 <style scoped>
 .my-link {
-  @apply text-blue-600;
-    text-decoration: none;
+  @apply text-white;
+text-decoration: none;
+margin-left: 10px;
 }
 .my-link:hover {
-    @apply text-blue-600;
-    text-decoration: none;
+    @apply text-blue-200;
+text-decoration: none;
+margin-left: 10px;
 }
 .my-link:visited {
-@apply text-blue-600;
+@apply text-white;
     text-decoration: none;
+margin-left: 10px;
 }
 
 

@@ -1,5 +1,7 @@
 <script setup>
-  import { queryContent, useAsyncData, useRoute } from "#imports";
+definePageMeta({ documentDriven: { page: false, surround: false  } });
+
+import { queryContent, useAsyncData, useRoute } from "#imports";
 
 const route = useRoute();
 const {data: articles, pending} = await useAsyncData(
@@ -15,8 +17,6 @@ const {data: articles, pending} = await useAsyncData(
 
 <template>
 <NuxtLayout>
-  <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2">
-    <div class="p-10 col-span-4 rounded overflow-hidden shadow-md">
   <div>
     <div class="mt-12 grid gap-16 lg:grid-cols-3 lg:gab-x-5">
         <div v-for="article in articles" :key="article._path">
@@ -37,8 +37,6 @@ const {data: articles, pending} = await useAsyncData(
           </div>
           </NuxtLink>
         </div>
-    </div>
-  </div>
     </div>
   </div>
 </NuxtLayout>
