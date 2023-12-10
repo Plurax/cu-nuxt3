@@ -11,13 +11,12 @@ export default {
     "@fortawesome/fontawesome-svg-core/styles.css"
   ],
   content: {
+    documentDriven: true,
     highlight: {
       // See the available themes on https://github.com/shikijs/shiki/blob/main/docs/themes.md#all-theme
       theme: 'github-dark',
       preload: ['diff', 'json', 'js', 'ts', 'css', 'shell', 'html', 'md', 'yaml', 'lisp']
-    },
-    documentDriven: true,
-  },
+    }  },
   nitro: {
     serveStatic: true,
   },
