@@ -7,6 +7,9 @@ date: 2023-11-17T21:39:00.000Z
 
 Hi, I am Christoph. I am father, husband and tech consultant @ [Qvest Digital AG](https://www.qvest-digital.com) in Bonn. I had the chance to work on different projects and different technologies. I think I am solution-oriented, helpful and a team player and I like agile methodologies.
 
+::SocialLinks
+::
+
 # What I am doing...
 
 Some infos about my cv in the following.

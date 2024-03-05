@@ -7,6 +7,9 @@ date: 2023-11-17T21:39:00.000Z
 
 Hi, ich bin Christoph - Vater, Ehemann und Technologieconsultant bei der [Qvest Digital AG](https://www.qvest-digital.com) in Bonn. Ich durfte bereits an unterschiedlichen Projekten arbeiten und konnte in unterschiedlichen Technologien Erfahrung sammeln. Ich halte mich selbst für lösungsorientiert, hilfsbereit und teamfähig und nutze gern agile Entwicklungsmethoden.
 
+::SocialLinks
+::
+
 # Was ich so tue...
 
 Im Folgenden ein paar Dinge aus meinem Lebenslauf.
@@ -14,7 +17,6 @@ Im Folgenden ein paar Dinge aus meinem Lebenslauf.
 ## now: Technology Consultant
 
 Als Technology Consultant unterstütze ich Kunden in unterschiedlichen Rollen in der Produktentwicklung. Meine Erfahrung als Entwickler und Product Owner kann ich insbesondere zu Beginn von Softwareprojekten einbringen. Außerdem kann ich beim Aufbau von POCs sowie Architekturentscheidungen helfen.
-
 
 ::GreyTag
 SCRUM Product Owner
