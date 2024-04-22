@@ -7,6 +7,8 @@
 </template>
 
 <script setup>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
 const socialLinks = [
     {
         name: 'LinkedIn',
