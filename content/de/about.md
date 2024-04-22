@@ -3,7 +3,7 @@ title: About
 date: 2023-11-17T21:39:00.000Z
 ---
 
-![Thats me](/img/sw.png)
+![Thats me](/img/CU_Web_res.png)
 
 Hi, ich bin Christoph - Vater, Ehemann und Technologieconsultant bei der [Qvest Digital AG](https://www.qvest-digital.com) in Bonn. Ich durfte bereits an unterschiedlichen Projekten arbeiten und konnte in unterschiedlichen Technologien Erfahrung sammeln. Ich halte mich selbst für lösungsorientiert, hilfsbereit und teamfähig und nutze gern agile Entwicklungsmethoden.
 
