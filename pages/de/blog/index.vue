@@ -17,7 +17,7 @@ const { data: articles, pending } = await useAsyncData(route.fullPath, () =>
 <template>
   <NuxtLayout>
     <div>
-      <div class="columns-3">
+      <div class="sm:columns-1 md:columns-2 lg:columns-3">
         <div v-for="article in articles" :key="article._path">
           <NuxtLink :href="article._path">
             <div class="max-w-sm rounded overflow-hidden shadow-lg">
